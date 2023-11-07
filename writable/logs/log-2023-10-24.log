@@ -1,0 +1,149 @@
+CRITICAL - 2023-10-24 02:58:43 --> Undefined variable $dieta
+in APPPATH\Views\Dietas\editar.php on line 8.
+ 1 APPPATH\Views\Dietas\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dieta', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Dietas\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Dietas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Dietas/editar', [], true)
+ 5 APPPATH\Controllers\Dietas.php(75): view('Dietas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dietas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dietas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 02:59:31 --> Undefined array key "id"
+in APPPATH\Controllers\Dietas.php on line 87.
+ 1 APPPATH\Controllers\Dietas.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Controllers\\Dietas.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dietas->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dietas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:05:44 --> Undefined variable $mascotas
+in APPPATH\Views\Mascota\buscar.php on line 26.
+ 1 APPPATH\Views\Mascota\buscar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mascotas', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\buscar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Mascota/buscar', [], true)
+ 5 APPPATH\Controllers\Mascota.php(121): view('Mascota/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mascota->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:39:52 --> Undefined property: stdClass::$telefono
+in APPPATH\Views\Adoptador\mostrar.php on line 16.
+ 1 APPPATH\Views\Adoptador\mostrar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telefono', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\mostrar.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Adoptador/mostrar', [], true)
+ 5 APPPATH\Controllers\Adoptador.php(21): view('Adoptador/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:40:49 --> Undefined property: stdClass::$direccion
+in APPPATH\Views\Adoptador\mostrar.php on line 17.
+ 1 APPPATH\Views\Adoptador\mostrar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$direccion', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\mostrar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Adoptador/mostrar', [], true)
+ 5 APPPATH\Controllers\Adoptador.php(21): view('Adoptador/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:41:17 --> Undefined property: stdClass::$telefono
+in APPPATH\Views\Adoptador\editar.php on line 15.
+ 1 APPPATH\Views\Adoptador\editar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telefono', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\editar.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Adoptador/editar', [], true)
+ 5 APPPATH\Controllers\Adoptador.php(71): view('Adoptador/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:41:56 --> Undefined array key "id"
+in APPPATH\Controllers\Adoptador.php on line 83.
+ 1 APPPATH\Controllers\Adoptador.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Controllers\\Adoptador.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:42:29 --> Undefined array key "idAdoptador"
+in APPPATH\Controllers\Adoptador.php on line 83.
+ 1 APPPATH\Controllers\Adoptador.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idAdoptador"', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Controllers\\Adoptador.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:43:25 --> Undefined array key "idAdoptador"
+in APPPATH\Controllers\Adoptador.php on line 83.
+ 1 APPPATH\Controllers\Adoptador.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idAdoptador"', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Controllers\\Adoptador.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:44:17 --> Undefined array key "id"
+in APPPATH\Controllers\Adoptador.php on line 83.
+ 1 APPPATH\Controllers\Adoptador.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Controllers\\Adoptador.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:44:39 --> Undefined array key "id"
+in APPPATH\Controllers\Adoptador.php on line 83.
+ 1 APPPATH\Controllers\Adoptador.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Controllers\\Adoptador.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+ERROR - 2023-10-24 03:45:54 --> mysqli_sql_exception: Unknown column 'telefono' in 'field list' in C:\xampp\htdocs\Pro_Adopciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Pro_Adopciones\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `adoptad...', 0)
+#1 C:\xampp\htdocs\Pro_Adopciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `adoptad...')
+#2 C:\xampp\htdocs\Pro_Adopciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `adoptad...')
+#3 C:\xampp\htdocs\Pro_Adopciones\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `adoptad...', Array, false)
+#4 C:\xampp\htdocs\Pro_Adopciones\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Pro_Adopciones\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Pro_Adopciones\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Pro_Adopciones\app\Controllers\Adoptador.php(83): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(919): App\Controllers\Adoptador->update()
+#9 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+#10 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Pro_Adopciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Pro_Adopciones\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-24 03:45:54 --> Unknown column 'telefono' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `adoptador` SET `nombre` = :nombre:, `telefono` = :telefono:, `direccion` = :direccion:
+WHERE `adoptador`.`idAdoptador` IN :adoptador.idAdoptador:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Adoptador.php(83): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->update()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-24 03:51:10 --> Undefined variable $Adoptador
+in APPPATH\Views\Adoptador\buscar.php on line 20.
+ 1 APPPATH\Views\Adoptador\buscar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Adoptador', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\buscar.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Adoptador\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Adoptador/buscar', [], true)
+ 5 APPPATH\Controllers\Adoptador.php(102): view('Adoptador/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Adoptador->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adoptador))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')

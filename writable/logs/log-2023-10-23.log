@@ -1,0 +1,66 @@
+CRITICAL - 2023-10-23 17:24:08 --> Undefined variable $mascotas
+in APPPATH\Views\Mascota\editar.php on line 8.
+ 1 APPPATH\Views\Mascota\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mascotas', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Mascota/editar', [], true)
+ 5 APPPATH\Controllers\Mascota.php(85): view('Mascota/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mascota->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-23 17:24:26 --> Undefined variable $mascotas
+in APPPATH\Views\Mascota\editar.php on line 8.
+ 1 APPPATH\Views\Mascota\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mascotas', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Mascota/editar', [], true)
+ 5 APPPATH\Controllers\Mascota.php(85): view('Mascota/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mascota->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-23 17:25:04 --> Undefined variable $mascotas
+in APPPATH\Views\Mascota\editar.php on line 11.
+ 1 APPPATH\Views\Mascota\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mascotas', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Mascota/editar', [], true)
+ 5 APPPATH\Controllers\Mascota.php(85): view('Mascota/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mascota->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-23 17:25:41 --> Undefined property: stdClass::$cuidadesEspeciales
+in APPPATH\Views\Mascota\editar.php on line 44.
+ 1 APPPATH\Views\Mascota\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cuidadesEspeciales', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Views\\Mascota\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Mascota/editar', [], true)
+ 5 APPPATH\Controllers\Mascota.php(85): view('Mascota/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mascota->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-23 17:31:38 --> Undefined array key "cuidadesEspeciales"
+in APPPATH\Controllers\Mascota.php on line 98.
+ 1 APPPATH\Controllers\Mascota.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cuidadesEspeciales"', 'C:\\xampp\\htdocs\\Pro_Adopciones\\app\\Controllers\\Mascota.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mascota->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
+CRITICAL - 2023-10-23 17:34:58 --> Invalid file: "Mascota/buscar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mascota/buscar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Mascota/buscar', [], true)
+ 3 APPPATH\Controllers\Mascota.php(121): view('Mascota/buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mascota->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mascota))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')

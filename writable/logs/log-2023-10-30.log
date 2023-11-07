@@ -1,0 +1,34 @@
+ERROR - 2023-10-30 16:10:20 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Pro_Adopciones\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Pro_Adopciones\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'adopciones', 3306, '', 0)
+#1 C:\xampp\htdocs\Pro_Adopciones\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Pro_Adopciones\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Pro_Adopciones\app\Controllers\Home.php(11): CodeIgniter\Database\BaseConnection->query('SELECT mascota....')
+#4 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Pro_Adopciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Pro_Adopciones\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Pro_Adopciones\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Pro_Adopciones\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Pro_Adopciones\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Pro_Adopciones\app\Controllers\Home.php(11): CodeIgniter\Database\BaseConnection->query('SELECT mascota....')
+#3 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Pro_Adopciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Pro_Adopciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Pro_Adopciones\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-30 16:10:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(11): CodeIgniter\Database\BaseConnection->query('SELECT mascota.*, dietas.dieta,dietas.cuidadosEspeciales, razas.raza FROM mascota, dietas, razas where mascota.dieta = dietas.dieta and mascota.raza = razas.raza')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Pro_Adopciones\\public\\index.php')
